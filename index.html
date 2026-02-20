@@ -1,90 +1,93 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Personal Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
 
-  <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-gray-900 text-white">
 
   <!-- ================= NAVBAR ================= -->
-  <nav class="fixed w-full bg-gray-900 shadow-md">
+<nav class="fixed top-0 w-full bg-gray-900/80 backdrop-blur-md border-b border-gray-800">
     <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold text-cyan-400">Alif</h1>
+        <h1 class="text-xl font-bold text-sky-300">A</h1>
 
-      <ul class="flex space-x-6">
-        <li><a href="#home" class="hover:text-cyan-400">Home</a></li>
-        <li><a href="#about" class="hover:text-cyan-400">About</a></li>
-        <li><a href="#skills" class="hover:text-cyan-400">Skills</a></li>
-        <li><a href="#projects" class="hover:text-cyan-400">Projects</a></li>
-        <li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
-      </ul>
+        <ul class="flex space-x-6">
+            <li><a href="#home" class="hover:text-sky-300">Home</a></li>
+            <li><a href="#about" class="hover:text-sky-300">About</a></li>
+            <li><a href="#skills" class="hover:text-sky-300">Skills</a></li>
+            <li><a href="#projects" class="hover:text-sky-300">Projects</a></li>
+            <li><a href="#contact" class="hover:text-sky-300">Contact</a></li>
+        </ul>
     </div>
-  </nav>
+</nav>
 
   <!-- ================= HERO ================= -->
-  <section id="home" class="min-h-screen flex items-center justify-center text-center px-6">
+<section id="home" class="min-h-screen flex items-center justify-center text-center px-6 pt-24">
     <div>
-      <h2 class="text-2xl md:text-4xl font-bold">
-        Hi, I'm <span class="text-cyan-400">Alif</span> Fathi Athallah Ramadhan Sya'roni
-      </h2>
-      <p class="mt-6 text-gray-300">
-        Junior Fullstack Developer who builds clean and modern websites.
-      </p>
+        <h2 class="text-2xl md:text-4xl font-bold">
+            Hi, I'm <span class="text-sky-300">Alif</span> Fathi Athallah Ramadhan Sya'roni
+        </h2>
+        <p class="mt-6 text-gray-300">
+            Ambitious Junior Developer ready to grow and build impactful digital experiences.
+        </p>
 
-      <a href="#projects"
-         class="inline-block mt-8 px-6 py-3 bg-cyan-500 text-black font-semibold rounded-lg hover:bg-cyan-400 transition">
-        View My Work
-      </a>
+        <a href="#projects"
+           class="inline-block mt-8 px-6 py-3 bg-sky-500 text-black font-semibold rounded-lg hover:bg-sky-300 transition">
+            View My Work
+        </a>
     </div>
-  </section>
+</section>
 
   <!-- ================= ABOUT ================= -->
-  <section id="about" class="py-20 px-6">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold text-cyan-400 mb-6">About Me</h2>
+  <section id="about" class="py-28 px-6">
+    <div class="max-w-6xl mx-auto text-center space-y-6">
+      <h2 class="text-3xl font-bold text-sky-300 mb-6">About Me</h2>
       <p class="text-gray-300">
-        I am a passionate frontend developer focusing on building responsive and modern web interfaces.
-        I enjoy turning ideas into interactive and clean digital experiences.
+        I am a second-year Informatics student currently focusing on full-stack web development while exploring the fundamentals of Artificial Intelligence. 
+        I enjoy building and experimenting through mini projects to sharpen my skills and turn ideas into real, functional products. 
+        As a junior developer, I’m continuously learning and striving to grow with every project I create.
       </p>
     </div>
   </section>
 
   <!-- ================= SKILLS ================= -->
-  <section id="skills" class="py-20 px-6 bg-gray-800">
-    <div class="max-w-6xl mx-auto text-center">
+  <section id="skills" class="py-28 px-6 bg-gray-800">
+    <div class="max-w-6xl mx-auto text-center space-y-6">
       <h2 class="text-3xl font-bold text-cyan-400 mb-10">Skills</h2>
 
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-        <div class="bg-gray-900 p-6 rounded-lg">HTML</div>
-        <div class="bg-gray-900 p-6 rounded-lg">CSS</div>
-        <div class="bg-gray-900 p-6 rounded-lg">Tailwind CSS</div>
-        <div class="bg-gray-900 p-6 rounded-lg">JavaScript</div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="bg-gray-900 p-8 rounded-xl hover:-translate-y-2 transition duration-300">HTML</div>
+        <div class="bg-gray-900 p-8 rounded-xl hover:-translate-y-2 transition duration-300">Tailwind CSS</div>
+        <div class="bg-gray-900 p-8 rounded-xl hover:-translate-y-2 transition duration-300">Bootstrap</div>
+        <div class="bg-gray-900 p-8 rounded-xl hover:-translate-y-2 transition duration-300">Laravel</div>
+        <div class="bg-gray-900 p-8 rounded-xl hover:-translate-y-2 transition duration-300">PHP</div>
+        <div class="bg-gray-900 p-8 rounded-xl hover:-translate-y-2 transition duration-300">JavaScript</div>
       </div>
     </div>
   </section>
 
   <!-- ================= PROJECTS ================= -->
-  <section id="projects" class="py-20 px-6">
-    <div class="max-w-6xl mx-auto text-center">
+  <section id="projects" class="py-28 px-6">
+    <div class="bg-gray-800 p-8 rounded-xl hover:-translate-y-2 transition duration-300">
       <h2 class="text-3xl font-bold text-cyan-400 mb-10">Projects</h2>
 
       <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-gray-800 p-6 rounded-lg">
+        <div class="bg-gray-900 p-6 rounded-lg">
           <h3 class="text-xl font-semibold mb-2">Project One</h3>
           <p class="text-gray-400">Short description of the project.</p>
         </div>
 
-        <div class="bg-gray-800 p-6 rounded-lg">
+        <div class="bg-gray-900 p-6 rounded-lg">
           <h3 class="text-xl font-semibold mb-2">Project Two</h3>
           <p class="text-gray-400">Short description of the project.</p>
         </div>
 
-        <div class="bg-gray-800 p-6 rounded-lg">
+        <div class="bg-gray-900 p-6 rounded-lg">
           <h3 class="text-xl font-semibold mb-2">Project Three</h3>
           <p class="text-gray-400">Short description of the project.</p>
         </div>
@@ -93,8 +96,8 @@
   </section>
 
   <!-- ================= CONTACT ================= -->
-  <section id="contact" class="py-20 px-6 bg-gray-800">
-    <div class="max-w-4xl mx-auto text-center">
+  <section id="contact" class="py-28 px-6 bg-gray-800">
+    <div class="max-w-4xl mx-auto text-center space-y-6">
       <h2 class="text-3xl font-bold text-cyan-400 mb-6">Contact</h2>
       <p class="text-gray-300 mb-6">
         Let’s build something great together.
